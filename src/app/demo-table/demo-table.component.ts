@@ -20,15 +20,7 @@ export class DemoTableComponent implements OnInit {
 
   ngOnInit(): void {
    
-/*    
-this.http.get('http://angular-data-grid.github.io/demo/data.json')
-            .subscribe((data)=> {
-                setTimeout(()=> {
-                    this.data = data.json();
-                }, 1000);
-            });
-            
-*/
+ 
 var dataToDisplay = [
     { "Channel ID": "1256", "Site Name": "San Dleus", "Organisation": "BP", "Field": "Three Maple", "Well": "Dark Storm", "Section": "Drill_C", "Mnemonic": "AH_D", "uidWell": "1212", "uidWellbore": "9565", "uidLog": "2150", "Last Alive Time": "03/16/2017 21:16:23", "Failure Count": "2", "Uptime": "26.22", "Depth": true, "Witsml 1311": false, "Witsml 1411": true, "Pending": false, "Color" : "R" },
     { "Channel ID": "5612", "Site Name": "Bob Inc 22", "Organisation": "Chevron", "Field": "Huff Post", "Well": "Blueville", "Section": "Cement_D", "Mnemonic": "OPS", "uidWell": "4532", "uidWellbore": "1511", "uidLog": "34545", "Last Alive Time": "03/16/2017 09:36:32", "Failure Count": "0", "Uptime": "49.26", "Depth": false, "Witsml 1311": true, "Witsml 1411": false, "Pending": true },
